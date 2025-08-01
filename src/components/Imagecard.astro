@@ -9,7 +9,7 @@ const { link, caption, height , link2, caption2, height2} = Astro.props;
   </div>
 
   <div class="second">
-<img height={height2} src={link2} />
+<img class="smaller" height={height2} src={link2} />
  <p>{caption2}</p>
   </div>
  <style>
@@ -37,8 +37,12 @@ const { link, caption, height , link2, caption2, height2} = Astro.props;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   display: flex;
   flex-direction:row;
-  gap: 2rem;
+  gap: 1rem;
   border: 2px solid black;
+
+  }
+  .smaller{
+    width: 10%;
 
   }
  </style>
