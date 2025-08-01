@@ -8,7 +8,7 @@ This starter is intentionally simple.
 
 ```
 /
-├── src/
+├── src/a
 │   ├── layouts/MainLayout.astro    ← Template used by every page
 │   ├── pages/                  ← Each file becomes a page (index.astro → /)
 │   │   └── blog/              ← Blog posts (.md files)
